@@ -1,5 +1,6 @@
 import Navbar from './components/navbar/Navbar.jsx';
 import Astros from './components/astros/Astros.jsx';
+import Apod from './components/apod/Apod.jsx';
 import About from './components/about/About.jsx';
 import './App.css';
 import { Routes, Route } from 'react-router-dom';
@@ -18,7 +19,7 @@ function App() {
       <Routes>
         <Route path="/" element={<h1>Space-app</h1>} />
         <Route path="/astros" element={<Astros />} />
-        <Route path="/apod" />
+        <Route path="/apod" element={<Apod />} />
         <Route path="/about" element={<About />} />
       </Routes>
     </>
