@@ -1,0 +1,24 @@
+.info-container{
+    margin-top: 70px;
+}
+
+.profile-photo {
+    height: 300px;
+}
+
+.text-container {
+    margin: 0 60px;
+    border-radius: 15px;
+    padding: 12px;
+    color: #271084;
+    background-color: rgba(255, 255, 255, 0.6);
+}
+
+.personal-info {
+    font-size: 32px;
+}
+
+.description {
+    font-size: 22px;
+    font-weight: 400;
+}
