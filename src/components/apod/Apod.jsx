@@ -35,8 +35,8 @@ function Apod() {
             {!picture ? (
                 <CircularProgress sx={{ color: "#271084" }} />
             ) : (
-                picture.map((item, idx) => <ApodCard key={idx} {...item} />)
-            )}
+                <ApodCard {...picture} />)
+            }
         </div>
     );
 }

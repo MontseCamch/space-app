@@ -26,7 +26,7 @@ function Astros() {
 
         fetchData().catch((err) => console.error(err));
     }, []);
-
+    
     return (
         <div className="astros-container">
             {!astros ? (
